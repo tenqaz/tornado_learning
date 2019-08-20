@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>student</h1>
+
+<form action="/student" , method="post">
+    {% autoescape None %}
+    {% for field in studentForm %}
+        <span>{{ field.label.text }} :</span>
+        {{ field(placeholder="请输入"+field.label.text) }}
+
+        {% if field.errors %}
+            {% for error_msg in field.errors %}
+                <div class="error-msg">{{ error_msg }}</div>
+                {% end %}
+                {% else %}
+                <div class="error-msg"></div>
+            {% end %}
+    {% end %}
+
+    <label>
+        <span>&nbsp;</span>
+        <input type="submit" class="button" value="提交"/>
+    </label>
+</form>
+</body>
+</html>
