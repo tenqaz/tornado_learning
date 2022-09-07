@@ -18,3 +18,7 @@ tornado学习案例
 [tornado finish和write区别](https://blog.csdn.net/qq_22918243/article/details/99860522)
 
 [tornado 使用peewee-async 完成异步orm数据库操作](https://blog.csdn.net/qq_22918243/article/details/99859071)
+
+# 欢迎交流
+
+<img src="https://gcore.jsdelivr.net/gh/tenqaz/BLOG-CDN@main/微信公众号.png" style="zoom:33%;" />
