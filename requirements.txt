@@ -3,7 +3,7 @@ aiomysql==0.0.20
 asn1crypto==0.24.0
 bcrypt==3.1.7
 cffi==1.12.3
-cryptography==39.0.1
+cryptography==41.0.4
 peewee==2.10.2
 peewee-async==0.5.12
 pycparser==2.19
